@@ -37,11 +37,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Golden Goose", "French Fry Ferret", "Shiba Inu", "Kitsune", "Kappa", "Nihonzaru", "Raccoon", "Tanuki", "Dragonfly", "Tanchozuru", "Mimic Octopus", "Red Fox", ["Starfish"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Hotdog Daschund"] = 8, ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS = { "Golden Goose", "French Fry Ferret", "Shiba Inu", "Kitsune", "Raccoon", "Dragonfly", "Mimic Octopus", "Red Fox", ["Starfish"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Hotdog Daschund"] = 8, ["Sunny-Side Chicken"] = 5 },
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 75,
 
-    EQUIP_PETS = { ["Sunny-Side Chicken"] = 8, ["Hotdog Daschund"] = 3, ["Starfish"] = 8 },
+    EQUIP_PETS = { ["Sunny-Side Chicken"] = 5, ["Seal"] = 3, ["Starfish"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
