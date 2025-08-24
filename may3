@@ -94,6 +94,7 @@ getgenv().ConfigsKaitun = {
 		},
 		Craft = {
 			"Skyroot Chest",
+			"Sprout Egg",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -120,7 +121,8 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
-			"Bug Egg",
+			"Sprout Egg",
+			"Zen Egg",
 		},
 		Buy = {
 			"Bee Egg",
@@ -206,6 +208,7 @@ getgenv().ConfigsKaitun = {
 			Pets = {
 				"Griffin",
 				"Kitsune",
+				"Golden Goose",
 			},
 			Pet_Weight_Noti = true,
 		}
