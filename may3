@@ -28,7 +28,7 @@ getgenv().gagConfig = {
     LIMIT_PLANT_SEED = { ["Dragon Fruit"] = 10, ["Spiked Mango"] = 10, ["Elder Strawberry"] = 13, ["Romanesco"] = 13, ["Grape"] = 15, ["Ember Lily"] = 20, ["Sugar Apple"] = 20, ["Beanstalk"] = 30, ["Mango"] = 10 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Rare egg", "Legendary Egg", "Uncommon Egg"  },
-    PLANT_EGGS = { "Rare Summer Egg" },
+    PLANT_EGGS = { "Rare Summer Egg", "Sprout Egg" },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Mango", "Dragon Fruit", "Coconut", "Carrot", "Grape" },
     KEEP_SEEDS = { "Giant Pinecone", "Burning Bud", "Cacao", "Mushroom", "Onion", "Pumpkin", "Watermelon", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Orange Tulip", "Monoblooma", "Artichoke", "Strawberry", "Lucky Bamboo", "Daffodil", "Crown Melon", "Blueberry", "Jalapeno", "Maple Apple", "Cactus", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Apple", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Mango", "Tomato", "Corn", "Pepper", "Bamboo", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Romanesco", "Crown of Thorns", "Calla Lily", "Cyclamen" },
