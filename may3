@@ -25,7 +25,7 @@ getgenv().gagConfig = {
     MAX_PLANTS = 150,
     DESTROY_UNTIL_MIN_PLANTS = 0,
     DELETE_PLANTS_AFTER_MAX = { "Gleamroot", "Sugarglaze", "Spiked Mango", "Flare Daisy", "Poseidon Plant", "Carrot", "Badlands Pepper", "Mangosteen" },
-    LIMIT_PLANT_SEED = LIMIT_PLANT_SEED = { ["Daffodil"] = 5, ["Pumpkin"] = 5, ["Bamboo"] = 5, ["Mushroom"] = 5, ["Watermelon"] = 5, ["Strawberry"] = 2, ["Blueberry"] = 2, ["Orange Tulip"] = 5, ["Tomato"] = 2, ["Corn"] = 2, ["Apple"] = 2, ["Coconut"] = 2, ["Cactus"] = 2, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Grape"] = 2, ["Sunbulb"] = 2, ["Glowthorn"] = 2, ["Pepper"] = 2, ["Cacao"] = 2, ["Lightshoot"] = 2, ["Beanstalk"] = 2, ["Ember Lily"] = 5, ["Sugar Apple"] = 2, ["Burning Bud"] = 2, ["Giant Pinecone"] = 2, ["Elder Strawberry"] = 2, ["Romanesco"] = 2 },
+    LIMIT_PLANT_SEED = { ["Daffodil"] = 5, ["Pumpkin"] = 5, ["Bamboo"] = 5, ["Mushroom"] = 5, ["Watermelon"] = 5, ["Strawberry"] = 2, ["Blueberry"] = 2, ["Orange Tulip"] = 5, ["Tomato"] = 2, ["Corn"] = 2, ["Apple"] = 2, ["Coconut"] = 2, ["Cactus"] = 2, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Grape"] = 2, ["Sunbulb"] = 2, ["Glowthorn"] = 2, ["Pepper"] = 2, ["Cacao"] = 2, ["Lightshoot"] = 2, ["Beanstalk"] = 2, ["Ember Lily"] = 5, ["Sugar Apple"] = 2, ["Burning Bud"] = 2, ["Giant Pinecone"] = 2, ["Elder Strawberry"] = 2, ["Romanesco"] = 2 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Rare egg", "Legendary Egg", "Uncommon Egg"  },
     PLANT_EGGS = { "Sprout Egg", "Enchanted Egg" },
