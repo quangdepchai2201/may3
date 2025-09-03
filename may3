@@ -1,18 +1,18 @@
+setfpscap(4)
+task.wait(6)
 local keys = {  -- Add as many key
     "cyGnzuTqxQQoWuLYeNhytEtIkOZZfGBy",
     "QDHjcAnSUErcfUuJdbirtWhbLvQpaKGv",
 }
 
 script_key = keys[math.random(#keys)];
-setfpscap(3)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Sprout Egg" },
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Rare Summer Egg", "Common Summer Egg", "Paradise Egg" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering", "Enchanted Seed Pack" },
-    PLANT_EVENT_TREES = true,
+    BUY_TRAVELING_MERCHANT = { "Rare Summer Egg", "Common Summer Egg", "Paradise Egg" },
+    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Enchanted Seed Pack", "Pet Shard Glimmering", "Mutation Spray Glimmering", "Enchanted Crate" },
     PLACE_COSMETIC = { "Cooking Kit" },
+
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -22,38 +22,38 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 150,
+    MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 0,
-    DELETE_PLANTS_AFTER_MAX = { "Gleamroot", "Sugarglaze", "Spiked Mango", "Flare Daisy", "Poseidon Plant", "Carrot", "Badlands Pepper", "Mangosteen" },
-    LIMIT_PLANT_SEED = { ["Daffodil"] = 5, ["Pumpkin"] = 5, ["Bamboo"] = 5, ["Mushroom"] = 5, ["Watermelon"] = 5, ["Strawberry"] = 2, ["Blueberry"] = 2, ["Orange Tulip"] = 5, ["Tomato"] = 2, ["Corn"] = 2, ["Apple"] = 2, ["Coconut"] = 2, ["Cactus"] = 2, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Grape"] = 2, ["Sunbulb"] = 2, ["Glowthorn"] = 2, ["Pepper"] = 2, ["Cacao"] = 2, ["Lightshoot"] = 2, ["Beanstalk"] = 2, ["Ember Lily"] = 5, ["Sugar Apple"] = 2, ["Burning Bud"] = 2, ["Giant Pinecone"] = 2, ["Elder Strawberry"] = 2, ["Romanesco"] = 2 },
+    DELETE_PLANTS_AFTER_MAX = { "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai" },
+    LIMIT_PLANT_SEED = { ["Daffodil"] = 10, ["Pumpkin"] = 10, ["Bamboo"] = 10, ["Mushroom"] = 10, ["Watermelon"] = 10, ["Strawberry"] = 5, ["Blueberry"] = 5, ["Orange Tulip"] = 10, ["Tomato"] = 5, ["Corn"] = 5, ["Apple"] = 5, ["Coconut"] = 5, ["Cactus"] = 5, ["Dragon Fruit"] = 5, ["Mango"] = 5, ["Grape"] = 5, ["Sunbulb"] = 5, ["Glowthorn"] = 5, ["Pepper"] = 5, ["Cacao"] = 5, ["Lightshoot"] = 5, ["Beanstalk"] = 5, ["Ember Lily"] = 5, ["Sugar Apple"] = 15, ["Burning Bud"] = 5, ["Giant Pinecone"] = 5, ["Elder Strawberry"] = 15, ["Romanesco"] = 15 },
     
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Rare egg", "Legendary Egg", "Uncommon Egg"  },
-    PLANT_EGGS = { "Sprout Egg", "Enchanted Egg" },
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Legendary Egg" },
+    PLANT_EGGS = { "Rare Summer Egg", "Enchanted Egg", "Zen Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Mythical Egg" },
     
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Mango", "Dragon Fruit", "Coconut", "Carrot", "Grape" },
-    KEEP_SEEDS = { "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen" },
+    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50, ["Corn"] = 50 },
+    KEEP_SEEDS = { "Aurora Vine", "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Griffin", "Golden Goose", "French Fry Ferret", "Peach Wasp", "Kitsune", "Green Bean", "Apple Gazelle", "Chicken Zombie", "Lemon Lion", "Dragonfly", "Glimmering Sprite", "Cockatrice", "Mimic Octopus", "Red Fox", ["Starfish"] = 30, ["Seal"] = 20, "Lobster Thermidor", ["Hotdog Daschund"] = 8, ["Sunny-Side Chicken"] = 5 },
-    KEEP_PETS_WEIGHT = 7,
+    KEEP_PETS = { "Cockatrice", "Glimmering Sprite", "Griffin", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", ["Starfish"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 75,
 
-    EQUIP_PETS = { ["Seal"] = 8, ["Glimmering Sprite"] = 8 },
+    EQUIP_PETS = { ["Seal"] = 8, ["Starfish"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Cleaning Spray" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1397396450404728934/a13XJ-ZPxjnQedqOxBTjCiB5bSiICrOGuJ6Z7z-lMVLX3DYH-hRPJBK-qU3cxgjGBIJH",
     SEED_WEBHOOK_URL = "", 
-    NOTIFY_PETS = { "Griffin", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Cockatrice", "Dragonfly", "Butterfly", "Mimic Octopus" },
-    NOTIFY_PETS_WEIGHT = 7,
+    NOTIFY_PETS = { "Cockatrice", "Griffin", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus" },
+    NOTIFY_PETS_WEIGHT = 6,
     DISCORD_ID = "1189850586468851765",
-    WEBHOOK_NOTE = "vẫn đéo quên đc người yêu cũ",
+    WEBHOOK_NOTE = "sao nyc vẫn xinh vậy",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
 }
