@@ -9,8 +9,9 @@ script_key = keys[math.random(#keys)];
 
 getgenv().gagConfig = {
     -- Event:
+    CRAFT_EVENT = { "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Rare Summer Egg", "Common Summer Egg", "Paradise Egg" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "Mutation Spray Glimmering", "FairyPoints", "Enchanted Seed Pack" },
+    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
 
@@ -42,7 +43,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 75,
 
-    EQUIP_PETS = { ["Seal"] = 8, ["Starfish"] = 8 },
+    EQUIP_PETS = { ["Glimmering Sprite"] = 5, ["Seal"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
