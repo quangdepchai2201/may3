@@ -9,7 +9,7 @@ script_key = keys[math.random(#keys)];
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
+    CRAFT_EVENT = { "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Rare Summer Egg", "Common Summer Egg", "Paradise Egg" },
     BUY_EVENT_SHOP = {"Enchanted Chest", "Wisp", "Drake" },
     MAX_EVENT_RESTOCK_SHECKLES = 480000001,
