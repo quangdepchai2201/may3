@@ -23,6 +23,7 @@ getgenv().gagConfig = {
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
+    MAX_REBIRTH_SHECKLES = 1_000_000_000_000_000_000_000,
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
@@ -45,6 +46,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
 
+    EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
     EQUIP_PETS = { ["Sunny-Side Chicken"] = 1, ["Glimmering Sprite"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
