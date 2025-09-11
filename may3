@@ -9,7 +9,7 @@ script_key = keys[math.random(#keys)];
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
+    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Rare Summer Egg", "Common Summer Egg", "Paradise Egg" },
     BUY_EVENT_SHOP = { "Drake", "Enchanted Chest", "Wisp" },
     MAX_EVENT_RESTOCK_SHECKLES = 30000000000000000000,
@@ -49,7 +49,7 @@ getgenv().gagConfig = {
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Cleaning Spray" },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Harvest Tool", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Cleaning Spray" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1397396450404728934/a13XJ-ZPxjnQedqOxBTjCiB5bSiICrOGuJ6Z7z-lMVLX3DYH-hRPJBK-qU3cxgjGBIJH",
