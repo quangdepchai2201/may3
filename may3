@@ -25,8 +25,8 @@ getgenv().gagConfig = {
     OPEN_ALL_SEED_PACK = false,
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 140,
+    MAX_PLANTS = 105,
+    DESTROY_UNTIL_MIN_PLANTS = 0,
     DELETE_PLANTS_AFTER_MAX = { "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai", "Cacao", "Cactus", "Watermelon", "Mango", "Ember Lily", "Giant Pinecone", "Sunbulb", "Pepper", "Tomato", "Daffodil", "Bamboo", "Blueberry", "Strawberry", "Orange Tulip", "Romanesco", "Apple", "Lightshoot", "Corn", "Mushroom", "Glowthorn", "Pumpkin" },
     LIMIT_PLANT_SEED = { ["Elder Strawberry"]= 15, ["Grape"]= 15, ["Burning Bud"]= 15, ["Sugar Apple"]= 15, ["Beanstalk"]= 15, ["Dragon Fruit"]= 15, ["Coconut"]= 15 },
     
