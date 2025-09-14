@@ -25,18 +25,20 @@ getgenv().gagConfig = {
     OPEN_ALL_SEED_PACK = false,
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    MAX_PLANTS = 105,
-    DESTROY_UNTIL_MIN_PLANTS = 0,
-    DELETE_PLANTS_AFTER_MAX = { "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai", "Cacao", "Cactus", "Watermelon", "Mango", "Ember Lily", "Giant Pinecone", "Sunbulb", "Pepper", "Tomato", "Daffodil", "Bamboo", "Blueberry", "Strawberry", "Orange Tulip", "Romanesco", "Apple", "Lightshoot", "Corn", "Mushroom", "Glowthorn", "Pumpkin" },
-    LIMIT_PLANT_SEED = { ["Elder Strawberry"]= 15, ["Grape"]= 15, ["Burning Bud"]= 15, ["Sugar Apple"]= 15, ["Beanstalk"]= 15, ["Dragon Fruit"]= 15, ["Coconut"]= 15 },
+       MAX_PLANTS = 95,
+    DESTROY_UNTIL_MIN_PLANTS = 90,
+    DELETE_PLANTS_AFTER_MAX = { "Daffodil", "Pumpkin", "Bamboo", "Mushroom", "Orange Tulip", "Corn", "Watermelon", "Cactus", "Strawberry", "Blueberry", "Tomato", "Apple", "Coconut", "Mango", "Sunbulb", "Glowthorn", "Pepper", "Cacao" ,"Giant Pinecone", "Romanesco", "Mangosteen", "Gleamroot", "Starfruit", "Durian", "Briar Rose", "Aetherfruit", "Emerald Bud", "Loquat", "Peach", "Pyracantha", "Spirit Flower", "Raspberry", "Glowthorn", "Flare Daisy", "Duskpuff", "Poseidon Plant", "Gleamroot" },
+    LIMIT_PLANT_SEED = { ["Elder Strawberry"] = 15, ["Grape"] = 15, ["Burning Bud"] = 15, ["Sugar Apple"] = 15, ["Beanstalk"] =  15, ["Dragon Fruit"] =  15 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Legendary Egg" },
     PLANT_EGGS = { "Zen Egg", "Fall Egg", "Paradise Egg", "Bug Egg" },
     
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50, ["Corn"] = 50 },
-    KEEP_SEEDS = { "Aurora Vine", "Sunbulb", "Lightshoot", "Glowthorn", "Onion", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Onion", "Sunbulb", "Lightshoot", "Glowthorn", "Serenity", "Tall Asparagus", "Fruitball", "Taro Flower", "Monoblooma", "Artichoke", "Lucky Bamboo", "Crown Melon", "Jalapeno", "Maple Apple", "Spiked Mango", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Crown of Thorns", "Calla Lily", "Cyclamen", "Briar Rose", "Spirit Flower", "Wispwing", "Sugarglaze", "Hinomai" },
-    
+    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 500, ["Apple"] = 50, ["Pumpkin"] = 500, ["Watermelon"] = 500, ["Daffodil"] = 500, ["Tomato"] = 50, ["Orange Tulip"] = 500, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    KEEP_SEEDS = { "Carrot", "Daffodil", "Pumpkin", "Bamboo", "Mushroom", "Orange Tulip", "Corn", "Watermelon", "Cactus", "Strawberry", "Blueberry", "Tomato", "Apple", "Coconut", "Mango", "Glowthorn", "Pepper", "Cacao" ,"Giant Pinecone", "Romanesco" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
+    FAVOURITE_FRUIT_MUTATIONS = {},
+    SKIP_HARVEST_MUTATIONS = {},
+
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
@@ -44,7 +46,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
 
-    EQUIP_PETS = { ["Sunny-Side Chicken"] = 4, ["Seal"] = 4 },
+    EQUIP_PETS = { ["Barn Owl"] = 4, ["Seal"] = 4 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
